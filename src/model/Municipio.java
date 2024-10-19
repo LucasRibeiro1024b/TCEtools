@@ -1,4 +1,4 @@
-package apptce;
+package model;
 
 public class Municipio {
 	private String codigo_municipio;
@@ -35,6 +35,6 @@ public class Municipio {
 	
 	@Override
 	public String toString() {
-		return "Municipio{codigo_municipio="+codigo_municipio+", nome_municipio="+nome_municipio+", geoibgeId="+geoibgeId+", geonamesId="+geonamesId+"}";
+		return nome_municipio;
 	}
 }
